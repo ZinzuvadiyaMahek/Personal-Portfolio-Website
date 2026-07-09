@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portffolio</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="styles/service.css" />
+    <link rel="stylesheet" href="styles/resume.css" />
+    <link rel="stylesheet" href="styles/projects.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <div class="brand-info">
+                <h2><b>Portfolio</b></h2>
+            </div>
+
+            <div class="menu-area">
+                <input type="checkbox" id="menu-toggle" hidden/>
+                <label for="menu-toggle" class="menu-icon"><i class="fa-solid fa-bars"></i></label>
+                <label for="menu-toggle" id="overlay"></label>
+
+            <nav>
+                <a href="#" style="--i : 1" data-tab="home" class="navlink active"><div class="nav-icons"><i class="fa-solid fa-house"></i></div><span>Home</span></a>
+                <a href="#" style="--i : 2" data-tab="services" class="navlink"><div class="nav-icons"><i class="fa-solid fa-gear"></i></div><span>Services</span></a>
+                <a href="#" style="--i : 3" data-tab="resume" class="navlink"><div class="nav-icons"><i class="fa-solid fa-file-lines"></i></div><span>Resume</span></a>
+                <a href="#" style="--i : 4" data-tab="projects" class="navlink"><div class="nav-icons"><i class="fa-solid fa-diagram-project"></i></div><span>Projects</span></a>
+                <a href="#" style="--i : 5" data-tab="contact" class="navlink"><div class="nav-icons"><i class="fa-solid fa-address-book"></i></div><span>Contact</span></a>
+            </nav>
+            </div>
+        </header>
+
+        <section id="home" class="content active">
+            <div class="details">
+                <h2><span><b>Zinzuvadiya</span> Mahek</b></h2>
+                <h3>
+                    I'm a
+                    <span id="typing-span"></span>
+                </h3>
+                <p> Thanks for stopping by! <br>
+                    Hi , I am Mahek - This is where I share my skills, interests, and the projects I’ve worked on. I hope you
+                    enjoy exploring my profile and get a clear sense of my work and passion for development.
+                </p>
+        
+                <div class="cv_and_icon">
+                    <div class="bottom">
+                        <a href="assets/Resume.pdf">
+                            <button>CV <i class="fa-solid fa-download"></i></button>
+                        </a>
+                    </div>
+        
+                    <div class="social-icons">
+                        <div class="icons">
+                            <a href="https://www.linkedin.com/in/mahek-zinzuvadiya/">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                        <div class="icons">
+                            <a href="https://github.com/MahekKZ">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="icons">
+                            <a href="https://leetcode.com/u/Mahek_Soni8/" target="_blank">
+                                <img src="https://cdn.simpleicons.org/leetcode/C77DFF" alt="LeetCode" width="20">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="img-container">
+                <div class="img-mask">
+                    <img src="assets/crop-photo.png" alt="Profile Picture" title="Profile Picture" loading="lazy" />
+                </div>
+            </div>
+        </section>
+        
+        <section id="services" class="content">
+            <h2>My Services</h2>
+            <div class="service-main">
+                <button class="arrow left">&#10094;</button>
+                <div class="carousel">
+                    <div class="card">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h4>Web Development</h4>
+                        <ul>
+                            <li>Build end-to-end web applications using MongoDB, Express, React, and Node</li>
+                            <li>Develop scalable frontend and backend architecture</li>
+                            <li>Integrate APIs, authentication, and database systems</li>
+                            <li>Write clean, maintainable, production-ready code</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-palette"></i>
+                        <h4>UI / UX Design</h4>
+                        <ul>
+                            <li>Design intuitive and visually engaging user interfaces</li>
+                            <li>Focus on usability and smooth interaction flow</li>
+                            <li>Maintain clean layout structure and consistency</li>
+                            <li>Create modern and polished visual experiences</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-puzzle-piece"></i>
+                        <h4>DSA & Problem Solving</h4>
+                        <ul>
+                            <li>Solve complex challenges using optimized logic</li>
+                            <li>Apply data structures for efficient implementation</li>
+                            <li>Improve algorithm performance and scalability</li>
+                            <li>Write structured and logical code</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-bolt"></i>
+                        <h4> Optimization & <br> Performance Engineering</h4>
+                        <ul>
+                            <li>Enhance application speed and responsiveness</li>
+                            <li>Identify and resolve performance bottlenecks</li>
+                            <li>Refine code structure for efficiency</li>
+                            <li>Implement smart optimization strategies</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-plug"></i>
+                        <h4>API Integration & <br> Backend Engineering</h4>
+                        <ul>
+                            <li>Design and integrate RESTful APIs for seamless data flow</li>
+                            <li>Build secure authentication and authorization systems</li>
+                            <li>Manage databases for scalable backend performance</li>
+                            <li>Create reliable server-side logic and architecture</li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="arrow right">&#10095;</button>
+                <div class="carousel-count">
+                    <span id="current">1</span> / <span id="total">5</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume" class="content">
+            <div class="sidebar">
+                <h3>Why Hire Me?</h3>
+                <p>I’m a dedicated developer focused on continuously improving my full-stack web development, UI/UX design, and problem-solving skills. I enjoy applying my technical knowledge to build practical, real-world projects that are clean, efficient, and user-focused. This profile reflects my work, skills, and passion for development, and I’m always eager to contribute meaningfully when given the opportunity.
+</p>
+                <div class="tabs">
+                    <span data-section="about-me" class="tab">About Me</span>
+                    <span data-section="skills" class="tab">Skills</span>
+                    <span data-section="education" class="tab">Education</span>
+                    <span data-section="experience" class="tab">Experience</span>
+                </div>
+            </div>
+
+            <aside id="about-me" class="tab-content active">
+                <h2>About <span>Me</span></h2>
+                <p>This section provides a brief overview of my background and personal information. It includes details about my education, location, and experience level. You can also find some of my interests beyond coding here.</p>
+                <div class="my-info"></div>
+            </aside>
+
+            <aside id="skills" class="tab-content">
+                <h2>My <span>Skills</span></h2>
+                <p>This section highlights the various skills and technologies I have learned and worked with. It includes tools, programming languages, and frameworks that contribute to my overall technical knowledge and development capabilities.</p>
+                <div class="skill-list"></div>
+            </aside>
+
+            <aside id="education" class="tab-content">
+                <h2>My <span>Education</span></h2>
+                <p>This section outlines my academic background and educational journey. It includes details about my studies, institutions, and the foundation that supports my growth in the field of technology.</p>
+                <div class="education-list"></div>
+            </aside>
+
+            <aside id="experience" class="tab-content">
+                <h2>My <span>Experience</span></h2>
+                <div class="experience-list"></div>
+            </aside>
+        </section>
+
+        <section id="projects" class="content">
+            <h2>Featured <span>Projects</span></h2>
+            <div class="project-list"></div>
+            <div id="project-popup" class="popup"></div>
+        </section>
+
+        <section id="contact" class="content">
+            <div class="contact-info">
+                <h2>Let's Work <span>Together</span></h2>
+                <p>As a passionate Computer Engineering student, I’m always eager to learn, collaborate, and work on exciting projects. If you have any opportunities, ideas, or simply want to connect, feel free to reach out. I’d love to hear from you and explore ways we can work together.</p>
+                <div class="contact-media"></div>
+            </div>
+
+            <form action="#" id="contact-form">
+                    <fieldset>
+                        <legend>
+                            <span>Contact</span>Me
+                        </legend>
+
+                        <div class="field">
+                            <div>
+                                <label for="name">Name:</label>
+                                <input type="text" name="name" id="name" placeholder="Enter Your Name:" required/>
+                            </div>
+
+                            <div>
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" id="email" placeholder="Enter Your Email:" required/>
+                            </div>
+
+                            <div>
+                                <label for="phone">Phone:</label>
+                                <input type="tel" name="phone" id="phone" placeholder="Enter Your Phone no.:" required/>
+                            </div>
+
+                            <div>
+                                <label for="message">Message:</label>
+                                <textarea name="message" id="message" cols="30" rows="5" placeholder="Type Your Message here" required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn" id="send-msg">Submit</button>
+                        </div>
+                    </fieldset>
+                </form>
+        </section>
+
+    </div>
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/about.js" defer></script>
+    <script src="scripts/project.js" defer></script>
+    <script src="scripts/contact.js" defer></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init({
+              publicKey: "5IPSnBRmB4RsxIepe",
+            });
+        })();
+    </script>
+
+</body>
+</html>
+
