@@ -1,7 +1,7 @@
 const projectList = [
             {
                 id:1,
-                img: "assets/portfolio.png" ,
+                img: "portfolio.png" ,
                 title: "Personal Portfolio Website" ,
                 tech: ["HTML5","CSS3","JavaScript","Responsive Design"],
                 details: "A modern and responsive personal portfolio website developed to showcase my skills, projects, and educational background. The website features structured sections, dynamic content rendering using JavaScript, and a clean user interface to provide smooth navigation. It highlights my development abilities while presenting my work and achievements in a professional and visually appealing way.",
@@ -10,7 +10,7 @@ const projectList = [
             } , 
             {
                 id:2,
-                img: "assets/sportify.png" ,
+                img: "sportify.png" ,
                 title: "Spotify Homepage UI Clone" ,
                 tech: ["HTML5","CSS3","Responsive Layout"],
                 details:  "A front-end clone of Spotify's homepage built using HTML5 and CSS3. The project focuses on recreating the layout, structure, and visual styling of the original interface while practicing modern CSS techniques such as flexbox, positioning, and responsive layout design. It demonstrates attention to UI details and strong understanding of front-end design fundamentals.",
@@ -19,7 +19,7 @@ const projectList = [
             } , 
             {
                 id:3,
-                img: "assets/simon-says.png" ,
+                img: "simon-says.png" ,
                 title: "Simon-says Game" ,
                 tech: ["HTML5","CSS3","JavaScript"],
                 details:  "An interactive Simon Says memory game developed using HTML5, CSS3, and JavaScript. The game generates a sequence of colors that the player must remember and repeat correctly as the levels increase. It demonstrates JavaScript logic building, DOM manipulation, event handling, and dynamic user interaction while providing a fun and engaging gameplay experience.",
