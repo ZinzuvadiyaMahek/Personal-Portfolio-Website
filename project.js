@@ -15,7 +15,7 @@ const projectList = [
                 tech: ["HTML5","CSS3","Responsive Layout"],
                 details:  "A front-end clone of Spotify's homepage built using HTML5 and CSS3. The project focuses on recreating the layout, structure, and visual styling of the original interface while practicing modern CSS techniques such as flexbox, positioning, and responsive layout design. It demonstrates attention to UI details and strong understanding of front-end design fundamentals.",
                 live: " https://zinzuvadiyamahek.github.io/Spotify-Homepage-UI-",
-                github: "https://github.com/MahekKZ/Spotify-Homepage-UI-clone",
+                github: "https://github.com/ZinzuvadiyaMahek/Spotify-Homepage-UI-clone",
             } , 
             {
                 id:3,
@@ -24,7 +24,7 @@ const projectList = [
                 tech: ["HTML5","CSS3","JavaScript"],
                 details:  "An interactive Simon Says memory game developed using HTML5, CSS3, and JavaScript. The game generates a sequence of colors that the player must remember and repeat correctly as the levels increase. It demonstrates JavaScript logic building, DOM manipulation, event handling, and dynamic user interaction while providing a fun and engaging gameplay experience.",
                 live: "https://zinzuvadiyamahek.github.io/Simon-Says-Game/",
-                github: "https://github.com/MahekKZ/Simon-Says-Game",
+                github: "https://github.com/ZinzuvadiyaMahek/Simon-Says-Game",
             } , 
             {
                 id:4,
@@ -33,7 +33,7 @@ const projectList = [
                 tech: ["HTML5", "CSS3", "Flexbox", "CSS Transitions"],
                 details:"A sidebar navigation layout built using only HTML5 and CSS3. The toggle functionality is implemented using the checkbox technique combined with modern CSS properties like transitions and positioning. This project focuses on learning creative CSS methods to build interactive UI components without using JavaScript.",
                 live: "https://zinzuvadiyamahek.github.io/CSS-Sidebar-Menu/",
-                github: "https://github.com/MahekKZ/CSS-Sidebar-Menu",
+                github: "https://github.com/ZinzuvadiyaMahek/CSS-Sidebar-Menu",
             }
 ]
 
